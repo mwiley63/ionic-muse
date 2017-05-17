@@ -131,5 +131,5 @@ Muse.prototype.getRecordingData = function(successCallback, errorCallback) {
 }
 
 
-
+window.muse = new Muse();
 module.exports = new Muse();
